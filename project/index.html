@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Olmon Akademiyasi - Nemis tili o'quv markazi</title>
+    <meta name="title" content="Olmon Akademiyasi - Nemis tili o'quv markazi" />
+    <meta name="description" content="O'zbekistondagi eng katta nemis tili o'quv markazlaridan biri. Kuchli ustozlar, unikal metodika, samarali darslar va yuqori natijalar!" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://olmonakademiyasi.uz/" />
+    <meta property="og:title" content="Olmon Akademiyasi - Nemis tili o'quv markazi" />
+    <meta property="og:description" content="O'zbekistondagi eng katta nemis tili o'quv markazlaridan biri. Kuchli ustozlar, unikal metodika, samarali darslar va yuqori natijalar!" />
+    <meta property="og:image" content="https://olmonakademiyasi.uz/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://olmonakademiyasi.uz/" />
+    <meta property="twitter:title" content="Olmon Akademiyasi - Nemis tili o'quv markazi" />
+    <meta property="twitter:description" content="O'zbekistondagi eng katta nemis tili o'quv markazlaridan biri. Kuchli ustozlar, unikal metodika, samarali darslar va yuqori natijalar!" />
+    <meta property="twitter:image" content="https://olmonakademiyasi.uz/twitter-image.jpg" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#DD0000" />
+    
+    <!-- PWA -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+    <link rel="mask-icon" href="/mask-icon.svg" color="#DD0000">
+    
+    <!-- Preload critical assets -->
+    <link rel="modulepreload" href="/src/main.tsx" />
+    <link rel="preload" href={HERO.url} as="image" fetchpriority="high" />
+    <link rel="preload" href={LOGO.url} as="image" fetchpriority="high" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    
+    <!-- Optimize font loading -->
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" 
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+
+    <!-- Inline critical CSS -->
+    <style>
+      /* Add your critical CSS here */
+      body { margin: 0; font-family: Inter, system-ui, sans-serif; }
+      .loading { display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading">Loading...</div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
